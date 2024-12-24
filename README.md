@@ -38,3 +38,67 @@ Sallmon SDK stands out as a blockchain with personality. It brings fun and appro
 
 Tagline
 “Sallmon SDK: Where Blockchain Meets the Meme Stream!”
+
+
+Here’s a README.md file for your repository with instructions on how to install sallmon-core using APT:
+
+# Sallmon Core
+
+Sallmon Core is the central service for the Sallmon SDK. It integrates WebSocket, Messaging, and Core services to provide a comprehensive framework for blockchain and related applications.
+
+---
+
+## Features
+- Blockchain Core Services
+- WebSocket Integration
+- Messaging Service
+- Extendable and Modular Framework
+
+---
+
+## Installation
+
+### 1. Add the Sallmon APT Repository
+To install Sallmon Core, add the Sallmon APT repository to your system's package manager:
+
+```bash
+echo "deb [trusted=yes] https://raw.githubusercontent.com/minakilabs/sallmon-core/ ./" | sudo tee -a /etc/apt/sources.list
+
+The [trusted=yes] flag is required because GitHub does not sign the .deb packages with a GPG key.
+
+2. Update the APT Cache
+
+Refresh your system’s package cache to include the Sallmon repository:
+
+sudo apt update
+
+3. Install Sallmon Core
+
+Once the cache is updated, install sallmon-core using APT:
+
+sudo apt install sallmon-sdk
+
+4. Verify Installation
+
+After installation, verify that the services are running:
+
+systemctl status core.service
+systemctl status ws.service
+systemctl status msg.service
+systemctl status frontend.service
+
+Development
+
+This repository is open to contributions for plugins, webhooks, and related integrations. Fork the repository and submit pull requests for new features or fixes.
+
+Support
+
+If you encounter any issues during installation or usage, please create an issue in the GitHub Issues section of this repository.
+
+License
+
+Sallmon SDK is released under the MIT License - MinakiLabs is the custodian of Sallmon Core while it is MIT it is not publically available
+---
+
+Replace the links in the markdown (like the repository URL) with the appropriate paths if needed! Let me know if you'd like further tweaks.
+
