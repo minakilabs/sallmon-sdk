@@ -87,18 +87,21 @@ systemctl status ws.service
 systemctl status msg.service
 systemctl status frontend.service
 
+```
+
 Development
 
-This repository is open to contributions for plugins, webhooks, and related integrations. Fork the repository and submit pull requests for new features or fixes.
+We welcome contributions for plugins, webhooks, and related integrations. If you would like to contribute, fork this repository, and submit a pull request with your features or fixes. We value community input and look forward to collaborating with you.
 
 Support
 
-If you encounter any issues during installation or usage, please create an issue in the GitHub Issues section of this repository.
+If you encounter any issues during installation or usage, please create an issue in the GitHub Issues section of this repository. Our team will review and address your concerns promptly.
 
 License
 
-Sallmon SDK is released under the MIT License - MinakiLabs is the custodian of Sallmon Core while it is MIT it is not publically available
----
+Sallmon SDK is released under the MIT License. However, Sallmon Core itself is not publicly available. MinakiLabs and TechnoIXP act as custodians of Sallmon Core.
 
-Replace the links in the markdown (like the repository URL) with the appropriate paths if needed! Let me know if you'd like further tweaks.
+While Sallmon Core is open to contributions, access to the source code is limited. If you are passionate about blockchain development, we encourage you to create your own blockchain core software. Share your repository with us for review, and we will provide feedback. Exceptional work may lead to an invitation to join the Sallmon Core development team.
+
+
 
