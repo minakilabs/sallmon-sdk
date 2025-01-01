@@ -23,6 +23,7 @@ The **Sallmon SDK** is an **extension** of this core and is still in active deve
 
 ## 🔑 Key Features
 
+<<<<<<< HEAD
 ### 1. Meme-Centric Branding
 - The project's mascot, **Sallmon**, is an awkward, cartoonish salmon with dog-like features. This "fish-dog" hybrid is featured prominently in branding, blockchain visuals, and the native coin.
 
@@ -116,3 +117,74 @@ For feature requests or bug reports, please open an issue on the GitHub reposito
 License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
+=======
+Tagline
+“Sallmon SDK: Where Blockchain Meets the Meme Stream!”
+
+
+Here’s a README.md file for your repository with instructions on how to install sallmon-core using APT:
+
+# Sallmon Core
+
+Sallmon Core is the central service for the Sallmon SDK. It integrates WebSocket, Messaging, and Core services to provide a comprehensive framework for blockchain and related applications.
+
+---
+
+## Features
+- Blockchain Core Services
+- WebSocket Integration
+- Messaging Service
+- Extendable and Modular Framework
+
+---
+
+## Installation
+
+### 1. Add the Sallmon APT Repository
+To install Sallmon Core, add the Sallmon APT repository to your system's package manager:
+
+```bash
+echo "deb [trusted=yes] https://raw.githubusercontent.com/minakilabs/sallmon-core/ ./" | sudo tee -a /etc/apt/sources.list
+
+The [trusted=yes] flag is required because GitHub does not sign the .deb packages with a GPG key.
+
+2. Update the APT Cache
+
+Refresh your system’s package cache to include the Sallmon repository:
+
+sudo apt update
+
+3. Install Sallmon Core
+
+Once the cache is updated, install sallmon-core using APT:
+
+sudo apt install sallmon-sdk
+
+4. Verify Installation
+
+After installation, verify that the services are running:
+
+systemctl status core.service
+systemctl status ws.service
+systemctl status msg.service
+systemctl status frontend.service
+
+```
+
+Development
+
+We welcome contributions for plugins, webhooks, and related integrations. If you would like to contribute, fork this repository, and submit a pull request with your features or fixes. We value community input and look forward to collaborating with you.
+
+Support
+
+If you encounter any issues during installation or usage, please create an issue in the GitHub Issues section of this repository. Our team will review and address your concerns promptly.
+
+License
+
+Sallmon SDK is released under the MIT License. However, Sallmon Core itself is not publicly available. MinakiLabs and TechnoIXP act as custodians of Sallmon Core.
+
+While Sallmon Core is open to contributions, access to the source code is limited. If you are passionate about blockchain development, we encourage you to create your own blockchain core software. Share your repository with us for review, and we will provide feedback. Exceptional work may lead to an invitation to join the Sallmon Core development team.
+
+
+
+>>>>>>> origin/master
