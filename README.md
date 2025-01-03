@@ -19,13 +19,11 @@ A Python CPU/GPU Blockchain Utility Network
 
 Install Sallmon Core via PyPI:
 
-pip install sallmon-core
-
 ❌ Uninstallation
 
 Remove Sallmon Core from your system:
 
-pip uninstall sallmon-core
+pip uninstall sallmon_core
 
 📖 Source Code Access
 
