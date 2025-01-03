@@ -9,26 +9,22 @@
 
 ---
 
-## 🌟 Project Description: Sallmon CORE - The Meme Blockchain
+🌟 Project Description: Sallmon CORE - The Meme Blockchain
 
-Sallmon Core
-
-A Python CPU/GPU Blockchain Utility Network
+Welcome to Sallmon CORE, where blockchain meets creativity, and your CPU/GPU gets a workout worthy of a dogfish chasing its tail upstream. We’ve combined cutting-edge blockchain functionality with the whimsy of aquatic memes to create a Python-based utility network like no other. Yes, it’s fun, but make no mistake—beneath the playful scales lies serious tech.
 
 📦 Installation
+Getting Sallmon CORE up and running is easier than teaching a dogfish new tricks. Just run:
 
-Install Sallmon Core via PyPI:
+pip install sallmon-core
 
 ❌ Uninstallation
+If you ever need to bid farewell to Sallmon CORE, we won’t take it personally. Remove it with:
 
-Remove Sallmon Core from your system:
-
-pip uninstall sallmon_core
+pip uninstall sallmon-core
 
 📖 Source Code Access
-
-Our source code is available upon request. However, we encourage you to challenge yourself by building your own core software. If you successfully launch your own core software, we’d love to invite you to join our development team. Let’s innovate together!
+Our source code is available on request. But why not flex your gills and try building your own core software? Think of it as a rite of passage in the blockchain ocean. Successfully launch your own? Fantastic! We’ll roll out the red carpet (and maybe a fish tank) to welcome you to our dev team. Let’s swim upstream together! 🐟💻
 
 Tagline:
-
-Sallmon CORE: Does your Dogfish bite? 🐟✨
+Sallmon CORE: Does your Dogfish Byte? 🐟✨
