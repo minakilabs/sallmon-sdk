@@ -11,10 +11,6 @@
 
 ## 🌟 Project Description: Sallmon CORE - The Meme Blockchain
 
-Sallmon_Core
-
-Here’s a super streamlined and polished README.md for Sallmon Core:
-
 Sallmon Core
 
 A Python CPU/GPU Blockchain Utility Network
@@ -37,4 +33,4 @@ Our source code is available upon request. However, we encourage you to challeng
 
 Tagline:
 
-Sallmon_CORE: Does your Dogfish bite?
+Sallmon CORE: Does your Dogfish bite? 🐟✨
